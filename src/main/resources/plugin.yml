@@ -1,0 +1,6 @@
+name: MHCosmeticsDisabler
+version: '${project.version}'
+main: me.hapily.plugins.mhcosmeticsdisabler.MHCosmeticsDisabler
+api-version: 1.19
+authors: [ hapily ]
+description: Disables the 'MinehutCosmetics' plugin.
