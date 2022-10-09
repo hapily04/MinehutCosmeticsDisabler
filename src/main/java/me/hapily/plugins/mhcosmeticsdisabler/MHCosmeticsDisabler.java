@@ -60,7 +60,7 @@ public final class MHCosmeticsDisabler extends JavaPlugin {
         HashMap<String, Command> knownCommands = (HashMap<String, Command>) getKnownCommands(commandMap);
         assert knownCommands != null;
         String[] mhCommandLabels = getMHCommandLabels(knownCommands);
-        for (String label :mhCommandLabels) {
+        for (String label : mhCommandLabels) {
             knownCommands.remove(label);
             commands.add(label);
         }
