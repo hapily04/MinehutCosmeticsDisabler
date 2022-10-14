@@ -33,6 +33,7 @@ public final class MHCosmeticsDisabler extends JavaPlugin {
             catch (Exception e) {
                 e.printStackTrace();
                 logger.warning("Couldn't get the command map for some reason, unable to disable MinehutCosmetics commands.");
+                logger.warning("Please fix me before your cpu, gpu and ram gets wasted on useless rendering of cosmetics by the greatest hosting ever :wink:")
             }
             manager.disablePlugin(cosmeticsPlugin);
             logger.info("MinehutCosmetics plugin has been found, disabled.");
