@@ -29,11 +29,12 @@ public final class MHCosmeticsDisabler extends JavaPlugin {
                 SimpleCommandMap simpleCommandMap = (SimpleCommandMap) getCommandMap();
                 String[] disabledCommands = disableCosmeticCommands(simpleCommandMap);
                 logger.info("Successfully disabled commands: " + prettyDisabledCommands(disabledCommands));
+                logger.info("Great now you wont see stupid cosmetics on your server ever again :)")
             }
             catch (Exception e) {
                 e.printStackTrace();
                 logger.warning("Couldn't get the command map for some reason, unable to disable MinehutCosmetics commands.");
-                logger.warning("Please fix me before your cpu, gpu and ram gets wasted on useless rendering of cosmetics by the greatest server hosting ever :wink:")
+                logger.severe("Please fix me before your cpu, gpu and ram gets wasted on useless rendering of cosmetics by the greatest server hosting ever :wink:")
             }
             manager.disablePlugin(cosmeticsPlugin);
             logger.info("MinehutCosmetics plugin has been found, disabled.");
