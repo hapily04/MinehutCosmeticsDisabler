@@ -13,7 +13,6 @@ import java.util.logging.Logger;
 
 public final class MHCosmeticsDisabler extends JavaPlugin {
 
-
     @SuppressWarnings("unchecked")
     @Override
     public void onLoad() {
